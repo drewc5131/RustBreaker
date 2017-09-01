@@ -1,18 +1,19 @@
-.linkbtn{
-	background-color: blue;
-	padding: 10px 10px 10px 10px;
-	color: white;
-	text-decoration: none;
-	transition: all .5s;
-	box-shadow: inset 0px 0px 0 0px #607D8B;
+.linkbtn {
+    background-color: #607D8B;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    text-decoration: none;
+    transition: all .5s;
+    box-shadow: inset 0px 0px 0 0px blue;
 }
 .linkbtn:hover{
 	padding: 10px 10px 15px 10px;
-	box-shadow: inset 0px -50px 0 0px #607D8B;
+	box-shadow: inset 0px -50px 0 0px blue;
 }
 
-.linkcurrent{
-		box-shadow: inset 0px -50px 0 0px #607D8B;
+.linkcurrent {
+    padding: 10px 10px 15px 10px;
+    box-shadow: inset 0px -50px 0 0px blue;
 }
 
 .dumdumlol{
@@ -25,3 +26,27 @@
 	top: 9%;
 	left: 50%;
 	}
+
+.item {
+    transition: all .5s;
+    animation: itemAnim .5s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes itemAnim {
+    from {
+        opacity: 0;
+        transform: translate(0, 10px);
+    }
+}
+
+.detailsItem {
+    animation: detailsItemAnim .5s;
+    animation-timing-function: ease-out;
+}
+@keyframes detailsItemAnim {
+    from {
+        opacity: 0;
+        transform: translate(0, -10px);
+    }
+}
