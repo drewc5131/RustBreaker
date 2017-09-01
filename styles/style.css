@@ -1,0 +1,16 @@
+.linkbtn{
+	background-color: blue;
+	padding: 10px 10px 10px 10px;
+	color: white;
+	text-decoration: none;
+	transition: all .5s;
+	box-shadow: inset 0px 0px 0 0px #607D8B;
+}
+.linkbtn:hover{
+	padding: 10px 10px 15px 10px;
+	box-shadow: inset 0px -50px 0 0px #607D8B;
+}
+
+.linkcurrent{
+		box-shadow: inset 0px -50px 0 0px #607D8B;
+}
