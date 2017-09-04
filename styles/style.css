@@ -62,6 +62,10 @@ body{
 	margin: 8px;
 }
 
+details{
+	cursor: pointer;
+}
+
 @keyframes itemAnim {
     from {
         opacity: 0;
