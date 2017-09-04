@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face {
+    font-family: mickey;
+    src: url("assets/MICKEY.ttf");
+}
+	
+
 .linkbtn {
     background-color: #607D8B;
     padding: 10px 10px 10px 10px;
@@ -7,12 +14,12 @@
     box-shadow: inset 0px 0px 0 0px blue;
 }
 .linkbtn:hover{
-	padding: 10px 10px 15px 10px;
+	padding: 10px 10px 10px 10px;
 	box-shadow: inset 0px -50px 0 0px blue;
 }
 
 .linkcurrent {
-    padding: 10px 10px 15px 10px;
+    padding: 10px 10px 10px 10px;
     box-shadow: inset 0px -50px 0 0px blue;
 }
 
@@ -33,6 +40,28 @@
     animation-timing-function: ease-out;
 }
 
+.detailsItem {
+    animation: detailsItemAnim .5s;
+    animation-timing-function: ease-out;
+}
+
+.navbar{
+	background-color: #26441a;
+	padding: 20px;
+}
+
+*{
+	font-family: 'Roboto', sans-serif;	
+}
+
+body{
+	margin: 0px;
+}
+
+.pageContent{
+	margin: 8px;
+}
+
 @keyframes itemAnim {
     from {
         opacity: 0;
@@ -40,10 +69,7 @@
     }
 }
 
-.detailsItem {
-    animation: detailsItemAnim .5s;
-    animation-timing-function: ease-out;
-}
+
 @keyframes detailsItemAnim {
     from {
         opacity: 0;
