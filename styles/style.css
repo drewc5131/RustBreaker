@@ -66,6 +66,10 @@ details{
 	cursor: pointer;
 }
 
+.center{
+	text-align: center;
+}
+
 @keyframes itemAnim {
     from {
         opacity: 0;
